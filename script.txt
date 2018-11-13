@@ -1,0 +1,16 @@
+git clone https://github.com/faressma/m1_vhdl
+
+wget http://m2siame.univ-tlse3.fr/teaching/francois/UE-M1-VHDL/R3K_Base/registres.0.vhd
+
+git add -all
+
+git commit -m 'update'
+
+git push
+
+
+///////////////////////
+
+
+git pull
+

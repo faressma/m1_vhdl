@@ -55,7 +55,7 @@ end registres;
 architecture behavior of registres is
 
 	-- definitions de types (index type default is integer)
-	type FILE_REGS is array (0 to ______) of std_logic_vector (______ downto 0);
+	type FILE_REGS is array (0 to (2**3)-1) of std_logic_vector (31 downto 0);
 
 	-- definition des ressources internes
 	signal REGS : FILE_REGS; -- le banc de registres
@@ -64,23 +64,22 @@ begin
 
 ---------------------------------
 -- affectation des bus en lecture
-________
-________
-________
-________
+QA <= REGS(conv_integer(ADR_A)) when ADR_A /= conv_std_logic_vect(0,32) else 
+	(others => '0' );
+
 
 -----------------
 -- Process P_REGS
-P_REGS: process(________)
+P_REGS: process(CLK, RST)
 begin
 	-- test du reset
 	if RST='0' then
-		 REGS <= (others => ______);
+		 REGS <= (others => conv_std_logic_vecto(0,DBUS_WIDTH));
 	-- test front actif d'horloge
-	elsif (CLK'event and CLK=____) then
+	elsif (CLK'event and CLK='1') then
 		-- test si ecriture dans le registre
-		if ((W='0') and ADR_W /= ________ then
-			REGS(______) <= D;
+		if ((W='0') and ADR_W /= conv_std_logic_vector(0,ADR_W'length) then
+			REGS(conv_integer(ADR_W)) <= D;
 		end if;
 	end if;
 end process P_REGS;
