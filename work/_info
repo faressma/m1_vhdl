@@ -1,0 +1,33 @@
+m255
+K4
+z2
+13
+!s112 1.1
+!i10d 8192
+!i10e 25
+!i10f 100
+cModel Technology
+Z0 d/home/mnf0765a/m1_vhdl/m1_vhdl
+Etest_registres
+w1542278559
+DPx4 ieee 18 std_logic_unsigned 0 22 ;eZjO2D4ZDz<]0>8AL<ne1
+DPx4 ieee 15 std_logic_arith 0 22 [G314=:2zXJ`VORJe1J@Z1
+DPx3 std 6 textio 0 22 zE1`LPoLg^DX3Oz^4Fj1K3
+DPx4 ieee 14 std_logic_1164 0 22 eNV`TJ_GofJTzYa?f<@Oe1
+R0
+8/home/mnf0765a/m1_vhdl/m1_vhdl/test_registres.0.vhd
+F/home/mnf0765a/m1_vhdl/m1_vhdl/test_registres.0.vhd
+l0
+L15
+VJKldl0]PcX77V2iFJ=QXl3
+!s100 Tcl<olQmSdZc^2Wbh86HK3
+OV;C;10.5b;63
+32
+!s110 1542278564
+!i10b 1
+!s108 1542278564.000000
+!s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|/home/mnf0765a/m1_vhdl/m1_vhdl/test_registres.0.vhd|
+!s107 /home/mnf0765a/m1_vhdl/m1_vhdl/test_registres.0.vhd|
+!i113 1
+o-work work -2002 -explicit
+tExplicit 1 CvgOpt 0

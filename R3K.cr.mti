@@ -1,0 +1,25 @@
+/home/mnf0765a/m1_vhdl/m1_vhdl/registres.0.vhd {0 {vcom -work work -2002 -explicit -stats=none /home/mnf0765a/m1_vhdl/m1_vhdl/registres.0.vhd
+Model Technology ModelSim - Intel FPGA Edition vcom 10.5b Compiler 2016.10 Oct  5 2016
+-- Loading package STANDARD
+-- Loading package TEXTIO
+-- Loading package std_logic_1164
+-- Loading package std_logic_arith
+-- Loading package STD_LOGIC_UNSIGNED
+-- Compiling entity registres
+** Error: /home/mnf0765a/m1_vhdl/m1_vhdl/registres.0.vhd(45): near ")": (vcom-1576) expecting ':'.
+
+} {9.0 10.0} {}} /home/mnf0765a/m1_vhdl/m1_vhdl/test_registres.0.vhd {0 {vcom -work work -2002 -explicit -stats=none /home/mnf0765a/m1_vhdl/m1_vhdl/test_registres.0.vhd
+Model Technology ModelSim - Intel FPGA Edition vcom 10.5b Compiler 2016.10 Oct  5 2016
+-- Loading package STANDARD
+-- Loading package TEXTIO
+-- Loading package std_logic_1164
+-- Loading package std_logic_arith
+-- Loading package STD_LOGIC_UNSIGNED
+-- Compiling entity test_registres
+-- Compiling architecture behavior of test_registres
+** Error: (vcom-11) Could not find work.registres.
+** Error (suppressible): /home/mnf0765a/m1_vhdl/m1_vhdl/test_registres.0.vhd(62): (vcom-1195) Cannot find expanded name "work.registres".
+** Error: /home/mnf0765a/m1_vhdl/m1_vhdl/test_registres.0.vhd(62): Unknown expanded name.
+** Error: /home/mnf0765a/m1_vhdl/m1_vhdl/test_registres.0.vhd(162): VHDL Compiler exiting
+
+} {10.0 11.0 12.0 14.0} {}}

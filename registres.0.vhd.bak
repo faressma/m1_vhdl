@@ -33,16 +33,17 @@ entity registres is
 	-- definition des entrees/sorties
 	port 	(
 		-- signaux de controle du Banc de registres
-		CLK : in std_logic ;
-		W, RST : in std_logic ;
+		________
+		________
+
 		-- bus d'adresse et donnees
-		ADR_A,ADR_B : in std_logic_vector(ABUS_WIDTH-1 downto 0 ) ;
-		ADR_w	    : in std_logic_vector(ABUS_WIDTH-1 downto 0 ) ;
-		D	    : in std_logic_vector(DBUS_WIDTH-1 downto 0 ) ;
+		________
+		________
+		________
 
 		-- Ports de sortie
-		QA,AB	    : out std_logic_vector(DBUS_WIDTH-1 downto 0) ;
-Â	);
+		________
+		________
 
 end registres;
 
